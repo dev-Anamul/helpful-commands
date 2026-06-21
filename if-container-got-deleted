@@ -1,0 +1,5 @@
+sudo apt-get install -y python3.11-dev python3.11-venv build-essential
+cd /workspace/development/white-canary
+rm -rf env
+bench setup env --python /usr/bin/python3.11
+bench setup requirements
